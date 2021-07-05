@@ -3,11 +3,34 @@ body	{
 	background-color:#000000;
 	background-image: url(blur3.jpg);
 	background-repeat: no-repeat}
-.mainbar-container {}
-.navbar-container {}
-.page-container {}
-
-.footer-container{}
+.mainbar-container {
+	margin: auto;
+	padding: 30px;
+	border:;
+	border-radius: 6px;
+	width: 85%;
+	filter: blur(20px);
+	background-color: rgba(75, 91, 105, 0.2);
+}
+.navbar-container {
+	margin: 0;
+	padding: 0;
+	border:;
+	width:;
+}
+.page-container {
+	margin: auto;
+	padding: 40px;
+	border:;
+	border-radius: 6px;
+	width:67%;
+}
+.footer-container{
+	margin: 0;
+	padding: 0;
+	border:;
+	width:;
+}
 h1	{text-align:center; 
 	background-color:green; 
 	color:red}
