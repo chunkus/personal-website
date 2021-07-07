@@ -2,37 +2,90 @@ body	{
 	#background-color:#4B5B69;
 	background-color:#000000;
 	background-image: url(blur3.jpg);
-	background-repeat: no-repeat}
+	background-repeat: no-repeat;
+
+	background-size: 100% auto;
+
+
+  }
 .mainbar-container {
-	margin: auto;
-	padding: 30px;
+	margin:auto;
+	padding: 50px;
 	border:;
-	border-radius: 6px;
+	border-radius: 20px;
 	width: 85%;
-	filter: blur(20px);
+	position: sticky;
+	backdrop-filter: blur(35px);
 	background-color: rgba(75, 91, 105, 0.2);
+	box-shadow: 20px 20px  10px rgb(10, 10, 10);
 }
+
 .navbar-container {
 	margin: 0;
 	padding: 0;
-	border:;
-	width:;
+	border:solid;
+	border-radius: 26px;
+	width:30%;
+	float: right;
+
 }
+.mainbar-container ul{
+	list-style-type: none;
+	margtin: 0;
+	padding: 0;
+ 	overflow: hidden;
+	background-color: rgba(75, 91, 105, 0.0);
+	float; right;
+}
+
+.mainbar-container li{
+	float: right;
+}
+.mainbar-container li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
 .page-container {
+	margin: 1% 25%;
+	padding: 40px;
+	border:;
+	border-radius: 26px;
+	max-width:45%;
+	backdrop-filter: blur(35px);
+	background-color: rgba(75, 91, 105, 0.2);
+	box-shadow: 20px 20px  10px rgb(10, 10, 10);
+}
+.footer-container{
+	margin: auto;
+	padding: 50px;
+	border:;
+	border-radius: 26px;
+	width:85%;
+	backdrop-filter: blur(35px);
+	background-color: rgba(75, 91, 105, 0.2);
+	box-shadow: 20px 20px  10px rgb(10, 10, 10);
+}
+
+.content-layout1{
 	margin: auto;
 	padding: 40px;
 	border:;
-	border-radius: 6px;
-	width:67%;
+	border-radius: 26px;
+	width:85%;
+	box-shadow: 20px 20px  10px rgb(10, 10, 10);
+	overflow:auto;
 }
-.footer-container{
-	margin: 0;
-	padding: 0;
-	border:;
-	width:;
+.img-float-right{
+	float: right;
 }
-h1	{text-align:center; 
-	background-color:green; 
-	color:red}
+.img-float-left{
+	float:left;
+	border-radius: 26px;
+}
+
 
 
