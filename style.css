@@ -3,7 +3,7 @@ body	{
 	background-color:#000000;
 	background-image: url(blur3.jpg);
 	background-repeat: no-repeat;
-
+	background-attachment: scroll;
 	background-size: 100% auto;
 
 
